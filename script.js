@@ -10,7 +10,7 @@ const endGameSound = document.getElementById('endGameSound'); // Ambil elemen au
 let score = 0;
 let activeHole;
 let timer;
-let timeLeft = 30; // Durasi waktu permainan diubah menjadi 30 detik
+let timeLeft = 20; // Durasi waktu permainan diubah menjadi 30 detik
 
 function randomHole() {
     holes.forEach(hole => hole.classList.remove('active'));
