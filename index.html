@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Ojo-Sepaneng</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Game Ojo-Sepaneng</h1>
+    <p><strong>Cara Bermain:</strong></p> <!-- Tambahkan teks Cara Bermain -->
+    <p>klik neng gambare wong ganteng</p> <!-- Tambahkan instruksi cara bermain -->
+    <div id="game">
+        <div class="hole" id="hole1"></div>
+        <div class="hole" id="hole2"></div>
+        <div class="hole" id="hole3"></div>
+        <div class="hole" id="hole4"></div>
+        <div class="hole" id="hole5"></div>
+        <div class="hole" id="hole6"></div>
+        <div class="hole" id="hole7"></div>
+        <div class="hole" id="hole8"></div>
+        <div class="hole" id="hole9"></div>
+    </div>
+    <p>Score: <span id="score">0</span></p>
+    <p id="timer">Time Left: <span id="time">30</span> seconds</p>
+    <div id="result" style="display: none;">
+        <p id="resultMessage"></p>
+        <button id="restartButton">Klik di sini untuk main lagi</button>
+    </div>
+
+    <!-- Audio elements -->
+    <audio id="correctSound" src="correct.mp3"></audio>
+    <audio id="wrongSound" src="wrong.wav"></audio>
+    <audio id="endGameSound" src="selesai.wav"></audio> <!-- Ganti dengan nama file suara yang baru -->
+
+    <script src="script.js"></script>
+</body>
+</html>

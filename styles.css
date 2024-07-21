@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    cursor: auto; /* Kursor default */
+}
+
+#game {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(3, 80px);
+    gap: 10px;
+    margin: 20px auto;
+    width: 270px; /* 3 * 80px + 2 * 10px (gap) */
+}
+
+.hole {
+    width: 80px;
+    height: 80px;
+    background: #ddd; /* Warna default */
+    position: relative;
+    background-size: cover; /* Menjamin gambar menutupi seluruh kotak */
+}
+
+.hole.active {
+    background-image: url('image.PNG'); /* Ganti dengan nama file gambar */
+}
+
+p {
+    font-size: 1.5em;
+    margin: 20px auto;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+#result {
+    margin: 20px auto;
+}
+
+#restartButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
