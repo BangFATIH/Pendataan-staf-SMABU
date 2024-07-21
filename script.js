@@ -21,7 +21,7 @@ function randomHole() {
 
 function startGame() {
     score = 0;
-    timeLeft = 30; // Atur ulang waktu menjadi 30 detik
+    timeLeft = 20; // Atur ulang waktu menjadi 30 detik
     scoreDisplay.textContent = score;
     timerDisplay.textContent = timeLeft;
     resultDiv.style.display = 'none';
